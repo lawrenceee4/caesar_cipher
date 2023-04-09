@@ -1,2 +1,3 @@
-# caesar_cipher
-A simple caesar cipher encoder
+# Caesar Cipher
+
+A simple Caesar Cipher Encoder
