@@ -15,8 +15,13 @@ for character in word:
         if character == alphabet[integer]:
             char_to_int.append(integer)
 
-# Integer to Character
-# number_to_word = list()
+# Add number of shift to Integer
+shift_char_to_int = list()
+for digit in char_to_int:
+    sum_shift = shift + digit
+    shift_char_to_int.append(sum_shift)    
 
-# print(''.join(map(str, number_to_word)))
+# Integer to Character
+
+# print(''.join(map(str, int_to_char)))
 
