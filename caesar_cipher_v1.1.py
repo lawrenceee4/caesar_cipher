@@ -22,6 +22,11 @@ for digit in char_to_int:
     shift_char_to_int.append(sum_shift)    
 
 # Integer to Character
+int_to_char = list()
+for character in shift_char_to_int:
+    for integer in range(len(alphabet)):
+        if character == alphabet[integer]:
+            int_to_char.append(alphabet[integer])
 
-# print(''.join(map(str, int_to_char)))
+print(''.join(map(str, int_to_char)))
 
