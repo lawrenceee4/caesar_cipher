@@ -25,8 +25,9 @@ for digit in char_to_int:
 int_to_char = list()
 for character in shift_char_to_int:
     for integer in range(len(alphabet)):
-        if character == alphabet[integer]:
+        if character == integer:
             int_to_char.append(alphabet[integer])
+
 
 print(''.join(map(str, int_to_char)))
 
