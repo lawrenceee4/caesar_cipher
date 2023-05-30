@@ -6,7 +6,7 @@ shift = input("Shift: ")
 shift = int(shift)
 
 # Alphabet
-alphabet = " abcdefghijklmnopqrstuvwxyz"
+alphabet = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 # Character to Integer
 char_to_int = list()
